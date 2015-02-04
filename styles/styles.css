@@ -7,6 +7,9 @@ html, body {
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 }
+body {
+	background-color: #cceae7;
+}
 .container {
 	display: flex;
 	flex-wrap: wrap;
@@ -27,9 +30,7 @@ html, body {
 .four {
 	background-color: #99d5cf;
 }
-.five {
-	background-color: #cceae7;
-}
+
 
 @media screen and (min-width: 450px) {
 	.one {
